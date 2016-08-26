@@ -1,6 +1,6 @@
 # FAITH Catholic web team documentation
 
-## Setting up Mac for Drupal development
+## Setting up Mac for Drupal development + Ruby Sass
 
 ### Initial setup:
 
