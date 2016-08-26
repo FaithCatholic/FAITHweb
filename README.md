@@ -8,12 +8,12 @@
 2. Download and install Acquia devdesktop https://www.acquia.com/downloads
 3. Install node.js https://nodejs.org/dist/v4.5.0/node-v4.5.0.pkg
 4. Open terminal. Edit .bash_profile `vim .bash_profile`
-5. OPTIONAL - Set nicer prompt - Add - `export PS1="\w:"` - to top of bash profile
-6. Add - `source ~/.profile` to the bash profile
+5. OPTIONAL - Set nicer prompt - Add `export PS1="\w:"` - to top of bash profile
+6. Add `source ~/.profile` to the bash profile
 7. Install Homebrew `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 8. Install RVM  `curl -sSL https://get.rvm.io | bash -s stable --ruby`
 9. Edit .bash_profile again. `vim .bash_profile` Add - `/Users/username/.rvm/gems/ruby-2.3.0/bin` to $PATH
-10. Install gcc49 `brew install homebrew/versions/gcc49` (this takes a while to install)
+10. Install GNU Compiler Collection `brew install homebrew/versions/gcc49` (this takes a while to install)
 11. Install Core Utilities `brew install coreutils`
 12. Download Composer `php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"`
 13. Install Composer `php composer-setup.php`
