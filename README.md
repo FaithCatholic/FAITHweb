@@ -12,7 +12,7 @@
 6. Add `source ~/.profile` to the bash profile
 7. Install Homebrew `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 8. Install RVM  `curl -sSL https://get.rvm.io | bash -s stable --ruby`
-9. Edit .bash_profile again. `vim .bash_profile` Add - `/Users/username/.rvm/gems/ruby-2.3.0/bin` to $PATH
+9. Edit .bash_profile again. `vim .bash_profile` Add - `/Users/USERNAME/.rvm/gems/ruby-VERSION/bin` to $PATH (modify USERNAME and VERSION)
 10. Install GNU Compiler Collection `brew install homebrew/versions/gcc49` (this takes a while to install)
 11. Install Core Utilities `brew install coreutils`
 12. Download Composer `php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"`
@@ -21,14 +21,15 @@
 
 ### Site specific setup:
 1. In terminal, cd into theme directory. RVM will check which version of ruby is required. Install different ruby version if necessary
+2. If a different version of Ruby is required by gems, create or modify the .ruby_version file with the desired version, then repeat step 1
 2. Run `rvm requirements –with-gcc=clang`
 3. Install bundler `gem install bundler`
 4. Install required gems `bundle install`
 5. Run `compass watch`
 
-### OPTIONAL: If you would like to use grunt to run compass:
-1. Install Grunt `sudo npm install -g grunt-cli`
-2. Install packages `npm install`
-3. To ensure livereload is enabled, look in Gruntfile.js Under sass: { - set livereload to `true`
-4. Run `grunt watch`
 
+### Other useful tools to install:
+1. Install Bower `sudo npm install -g bower`
+2. Install Grunt `sudo npm install -g grunt-cli`
+3. Install Gulp `sudo npm install --global gulp-cli`
+4. Install Vagrant https://releases.hashicorp.com/vagrant/1.9.1/vagrant_1.9.1.dmg
