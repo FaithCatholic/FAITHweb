@@ -33,3 +33,6 @@
 2. Install Grunt `sudo npm install -g grunt-cli`
 3. Install Gulp `sudo npm install --global gulp-cli`
 4. Install Vagrant https://releases.hashicorp.com/vagrant/1.9.1/vagrant_1.9.1.dmg
+
+
+Git clean command alias gitclean='find . -name ".git" -exec rm -Rf {} \;'
