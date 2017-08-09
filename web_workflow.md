@@ -1,3 +1,5 @@
+## Bring new site down to local machine
+
 1. Clone repository into new directory from GitHub (~/Sites/sitename)
 2. "Composer install" in root site directory
 3. Create empty database "sitename.local"
